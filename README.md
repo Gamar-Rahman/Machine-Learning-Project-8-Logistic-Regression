@@ -22,17 +22,17 @@ Evaluate classification performance on real-world digit data
 
 ### Key Concepts
 
-1) # Binary Logistic Regression
+# Binary Logistic Regression
 Logistic regression predicts the probability of a binary outcome using the sigmoid function:
 [
 \sigma(z) = \frac{1}{1 + e^{-z}}
 ]
 This allows the model to output values between 0 and 1, which can be converted into class predictions.
 
-2) # Logistic Loss
+# Logistic Loss
 The notebook computes the binary logistic loss and its gradient to optimize model weights with gradient descent.
 
-3) # Multinomial Logistic Regression
+# Multinomial Logistic Regression
 For multi-class classification, the notebook extends logistic regression using:
 Softmax
 Cross-entropy loss
@@ -64,6 +64,7 @@ Plot training loss
 # Binary Classification
 Task: Distinguish digit 0 from digit 1
 Testing Accuracy: 97.22%
+
 # Multi-Class Classification
 Task: Classify digits 0–9
 Testing Accuracy: 97.78%
